@@ -1,0 +1,354 @@
+
+
+/*mobile iphone*/
+@media (min-width: 320px) {
+.home-bg::before{
+	display: none;
+}
+
+ul.inner-page-main-menu {
+    padding-top: 0px;
+}
+a.navbar-brand img {
+    width: 80px;
+    height: auto;
+}
+.slide-form-group input {
+    padding: 15px 40px 15px 15px;
+}
+.slide-form-group span i {
+    right: 16px;
+}
+.home-slider-content-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.home-slider-area-wrapper {
+    border-bottom: 0px;
+}
+.home-slider-content h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.home-slider-content p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.slide-form-group{
+	width: 100%;
+}
+section.provider-area {
+    margin-top: 45px;
+}
+.provider-area-content h1 {
+
+    font-size: 26px;
+}
+section.popular-event-carousel-area {
+    padding:30px 0px;
+}
+section.provider-area {
+    margin-bottom: 30px;
+}
+.footer-content-left img {
+	display: block;
+	margin: 20px auto 25px auto;
+}
+.footer-content-left {
+    margin-bottom: 30px;
+}
+.footer-Upcoming-events-promo {
+    padding: 0px 0px;
+}
+.customNextBtn{
+	right: 0px
+}
+.customPrevBtn {
+    left: 0px;
+}
+span.section-icon-bg-1::before,
+span.section-icon-bg-2::before,
+span.section-icon-bg-3::before,
+span.section-icon-bg-4::before,
+span.section-icon-bg-5::before,
+span.section-icon-bg-6::before,
+span.section-icon-bg-7::before,
+span.section-icon-bg-9::before,
+span.section-icon-bg-10::before,
+.social-contact-detail::before{
+	display: none;
+}
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+section.nav-section {
+    border-bottom: 1px solid #EAECFF;
+}
+ul.inner-page-main-menu {
+    padding-top: 10px;
+    background-color: #3C4BCF;
+}
+.home-bg img,
+.home_top_left_bg{
+	display: none;
+}
+a.navbar-toggler span i {
+    color: #3C4BCF;
+}
+.footer-faq,
+.footer-social-contact{
+	text-align: center;
+}
+/*inner page design*/
+ul.inner-page-main-menu li.active {
+    border: 0px;
+}
+.avater-image{
+	margin: 0px auto 40px auto;
+}
+a.navbar-toggler.inner-page span i {
+    color: #fff;
+}
+.profile-detail {
+    text-align: center;
+}
+.social-contact-detail {
+
+	padding-left: 0px;
+}
+.follow-share-btns{
+	text-align: center;
+}
+
+.event-item-thumbnail{
+	position: relative;
+	border-radius: 10px;
+}
+
+
+
+}
+
+@media (min-width: 480px) {}
+
+/*Small devices bootstrap default (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+a.navbar-brand img {
+    width: 100px;
+}
+.home-slider-content-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.home-slider-content h1 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.home-slider-content p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.slide-form-group {
+    width: 412px;
+}
+.provider-area-content h1 {
+    font-size: 32px;
+}
+.provider-area-content p{
+	font-size: 16px;
+}
+.customPrevBtn {
+	left: -25px;
+}
+.customNextBtn{
+	right: -25px;
+}
+.footer-Upcoming-events-promo {
+    padding: 0px 60px;
+}
+
+.social-contact-detail::before{
+	display: block;
+}
+.social-contact-detail {
+    padding-left: 30px;
+}
+.follow-share-btns {
+     text-align: left; 
+}
+.footer-Upcoming-events-promo.inner-page {
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+
+a.navbar-brand img {
+    width: 130px;
+    height: 79px
+}
+.home-slider-content-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home-slider-content h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.home-slider-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.footer-content-left img{
+	display: unset;
+}
+.footer-Upcoming-events-promo {
+    padding: 0px 0px;
+}
+.footer-Upcoming-events-promo span img {
+    width: 75px;
+    height: 75px;
+}
+.footer-faq, 
+.footer-social-contact {
+     text-align: left; 
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+.home-bg img,
+.home_top_left_bg{
+	display: block;
+}
+.home_top_left_bg{
+	width: 86px;
+}
+a.navbar-toggler span i {
+    color: #fff;
+}
+.navbar {
+    padding-top: 32px;
+}
+a.navbar-toggler span i {
+    color: #fff;
+}
+section.nav-section {
+    border-bottom: 0px;
+}
+ul.inner-page-main-menu {
+    padding-top: 10px;
+    background-color: transparent;
+}
+ul.inner-page-main-menu li.active{
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.home-slider-content-wrapper {
+    padding-top: 165px;
+    padding-bottom: 92px
+}
+.home-slider-area-wrapper {
+    border-bottom: 1px solid #EAECFF;
+}
+.home-slider-content h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.home-slider-content p {
+    font-size: 20px;
+    margin-bottom: 59px;
+}
+ul.inner-page-main-menu li a {
+    font-size: 13px;
+    padding: 10px 13px;
+}
+.home-slider-content-wrapper {
+    padding-top: 100px;
+    padding-bottom: 92px;
+}
+.footer-Upcoming-events-promo {
+    padding: 0px 25px;
+}
+
+/*inner page design*/
+ul.inner-page-main-menu li.active {
+    border: 1px solid #fff;
+}
+.avater-image{
+	margin: 30px 0px 40px 0px;
+}
+
+
+.profile-detail {
+    text-align: left;
+}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+.home-slider-content h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.home_top_left_bg{
+	width: 130px;
+}
+.slide-form-group{
+	width: 412px;
+}
+.slide-form-group input {
+    padding: 30px;
+}
+.slide-form-group span i {
+    right: 30px;
+}
+section.provider-area {
+    margin-top: 100px;
+}
+.provider-area-content h1 {
+    font-size: 32px;
+}
+section.popular-event-carousel-area {
+    padding:50px 0px;
+}
+section.provider-area {
+    margin-bottom: 56px;
+}
+.footer-Upcoming-events-promo {
+    padding: 0px 25px;
+}
+.footer-Upcoming-events-promo span img {
+    width: 95px;
+    height: 95px;
+}
+ul.inner-page-main-menu li a {
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.home-slider-content-wrapper {
+    padding-top: 165px;
+    padding-bottom: 92px;
+}
+span.section-icon-bg-1::before,
+span.section-icon-bg-2::before,
+span.section-icon-bg-3::before,
+span.section-icon-bg-4::before,
+span.section-icon-bg-5::before,
+span.section-icon-bg-6::before,
+span.section-icon-bg-7::before,
+span.section-icon-bg-9::before,
+span.section-icon-bg-10::before{
+	display: block;
+}
+
+}
